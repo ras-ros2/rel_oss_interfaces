@@ -23,8 +23,10 @@ find_package(sensor_msgs REQUIRED)
 set(msg_files
   "msg/ObjectState.msg"
   "msg/Instruction.msg"
+  "msg/BTNodeStatus.msg"
 )
 set(srv_files
+  "srv/PrimitiveExec.srv"
   "srv/PoseReq.srv"
   "srv/LoadExp.srv"
   "srv/AddObject.srv"
@@ -46,11 +48,10 @@ set(action_files
 )
 
 
-# TODO(wjwwood): port the action GetMap from ROS 1, once actions are supported.
 rosidl_generate_interfaces(${PROJECT_NAME}
-  ${msg_files}
+  ${msg_files} 
   ${srv_files}
-  ${action_files}  
+  ${action_files}
   DEPENDENCIES builtin_interfaces geometry_msgs std_msgs moveit_msgs trajectory_msgs sensor_msgs
   ADD_LINTER_TESTS
 )

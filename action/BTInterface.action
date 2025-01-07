@@ -2,8 +2,9 @@ string bt_path
 
 ---
 
-bool success
+bool status
 
 ---
 
-string status
+string[] behavior_stack
+BTNodeStatus status
