@@ -41,6 +41,7 @@ set(srv_files
   "srv/ActionTraj.srv"
   "srv/GripperLog.srv"
   "srv/TrajLog.srv"
+  "srv/ArucoPoses.srv"
 )
 set(action_files
   "action/BTInterface.action"
