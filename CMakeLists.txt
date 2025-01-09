@@ -39,6 +39,9 @@ set(srv_files
   "srv/ReadBlack.srv"
   "srv/RotateEffector.srv"
   "srv/ActionTraj.srv"
+  "srv/GripperLog.srv"
+  "srv/TrajLog.srv"
+  "srv/ArucoPoses.srv"
 )
 set(action_files
   "action/BTInterface.action"
