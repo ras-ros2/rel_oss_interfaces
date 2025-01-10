@@ -42,6 +42,8 @@ set(srv_files
   "srv/GripperLog.srv"
   "srv/TrajLog.srv"
   "srv/ArucoPoses.srv"
+  "srv/MoveSim.srv"
+  "srv/SpawnSim.srv"
 )
 set(action_files
   "action/BTInterface.action"
