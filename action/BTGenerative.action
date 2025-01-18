@@ -1,6 +1,6 @@
 string module_path
 string class_name
-BTGenerative[] class_argument
+BTGenerative[] class_arguments
 BTGenerative[] input_ports
 ---
 BTNodeStatus status
