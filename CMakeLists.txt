@@ -28,6 +28,7 @@ set(msg_files
 set(srv_files
   "srv/PrimitiveExec.srv"
   "srv/PoseReq.srv"
+  "srv/JointReq.srv"
   "srv/LoadExp.srv"
   "srv/AddObject.srv"
   "srv/StatusLog.srv"
