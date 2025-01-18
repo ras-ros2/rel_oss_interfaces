@@ -6,4 +6,4 @@ BTGenerative[] input_ports
 BTNodeStatus status
 BTGenerative[] output_ports
 ---
-BTNodeStatus feedback
+BTNodeStatus status
