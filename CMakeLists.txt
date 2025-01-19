@@ -24,7 +24,7 @@ set(msg_files
   "msg/ObjectState.msg"
   "msg/Instruction.msg"
   "msg/BTNodeStatus.msg"
-  "msg/BTGenerative.msg"
+  "msg/BTGenMapping.msg"
 )
 set(srv_files
   "srv/PrimitiveExec.srv"
